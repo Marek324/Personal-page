@@ -1,8 +1,11 @@
+import { Suspense } from "react";
+import Header from "./components/Header";
+
 function App() {
     return (
-        <>
-            <header></header>
-        </>
+        <Suspense fallback="Loading...">
+            <Header />
+        </Suspense>
     );
 }
 
