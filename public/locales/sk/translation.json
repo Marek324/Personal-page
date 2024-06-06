@@ -1,3 +1,27 @@
 {
-    "changeLanguage": "Change language to English"
+    "changeLanguage": "Change language to English",
+    "menu": {
+        "about": "O mne",
+        "education": "Vzdelanie",
+        "skills": "Skúsenosti",
+        "contact": "Kontakt"
+    },
+    "education_section": {
+        "title": "Vzdelanie",
+        "content": [
+            {
+                "school": "Vysoké učení technické v Brně",
+                "degree": "Bakalárske štúdium",
+                "field": "Fakulta informačných technológií",
+                "year": "2019 - teraz"
+            },
+            {
+                "school": "SPŠ Elektrotechnická v Prešove",
+                "degree": "High school",
+                "field": "Informačné a sieťové technológie",
+                "year": "2015 - 2019"
+            }
+        ]
+    },
+    "about_section": "Volám sa Marek Hric. Mám 20 rokov a som v druhom ročníku na Fakulte informačných technológií na Vysokom učení technickom v Brne. Informačné technológie som začal študovať ako 15-ročný na SPŠ elektrotechnickej v Prešove. Programovacie jazyky, ktoré ma najviac zaujali, sú C, C#, Java, Bash a React."
 }
