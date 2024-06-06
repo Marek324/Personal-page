@@ -1,3 +1,27 @@
 {
-    "changeLanguage": "Zmeniť jazyk do slovenčiny"
+    "changeLanguage": "Zmeniť jazyk do slovenčiny",
+    "menu": {
+        "about": "About",
+        "education": "Education",
+        "skills": "Skills",
+        "contact": "Contact"
+    },
+    "education_section": {
+        "title": "Education",
+        "content": [
+            {
+                "school": "Brno University of Technology",
+                "degree": "Bachelor's degree",
+                "field": "Faculty of Information Technology",
+                "year": "2019 - present"
+            },
+            {
+                "school": "SPŠ Elektrotechnická in Prešov",
+                "degree": "High school",
+                "field": "Information and Networking Technology",
+                "year": "2015 - 2019"
+            }
+        ]
+    },
+    "about_section": "My name's Marek Hric. I am 20 years old and am in my second year at the Faculty of Information Technology at Brno University of Technology. I started studying information technology when I was 15 at SPŠ Elektrotechnická in Prešov. The programming languages that I have taken the most interest in are C, C#, Java, Bash, and React."
 }
