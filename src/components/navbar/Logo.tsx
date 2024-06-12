@@ -3,7 +3,7 @@ import logo from "../../assets/meno.svg";
 function Logo() {
     return (
         <a
-            href="/"
+            href="#sec_home"
             className="h-20 w-full group transition-size duration-300 self-top flex items-center justify-center pt-4"
         >
             <img

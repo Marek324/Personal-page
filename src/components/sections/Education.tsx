@@ -15,7 +15,7 @@ function Education() {
     });
 
     return (
-        <section>
+        <section id="sec_education">
             <h2 className="text-5xl font-bold text-center pb-8">
                 {t("education.title")}
             </h2>
