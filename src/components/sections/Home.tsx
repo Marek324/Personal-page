@@ -2,7 +2,7 @@
 
 function Home() {
     return (
-        <section>
+        <section id="sec_home">
             <h1>Home</h1>
         </section>
     );

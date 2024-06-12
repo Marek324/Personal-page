@@ -1,6 +1,6 @@
 function Skills() {
     return (
-        <section>
+        <section id="sec_skills">
             <h2>Skills</h2>
             <ul>
                 <li>JavaScript</li>
