@@ -6,7 +6,8 @@
         "skills": "Skills",
         "contact": "Contact"
     },
-    "education_section": {
+    "home": "Hi, I'm <1>Marek</1>, I'm on my way to become a software engineer. I'll use this website to learn React and later as mz portfolio.",
+    "education": {
         "title": "Education",
         "content": [
             {
@@ -23,5 +24,8 @@
             }
         ]
     },
-    "about_section": "My name's Marek Hric. I am 20 years old and am in my second year at the Faculty of Information Technology at Brno University of Technology. I started studying information technology when I was 15 at SPŠ Elektrotechnická in Prešov. The programming languages that I have taken the most interest in are C, C#, Java, Bash, and React."
+    "about": {
+        "title": "About me",
+        "content": "My name's Marek Hric. I am 20 years old and am in my second year at the Faculty of Information Technology at Brno University of Technology. I started studying information technology when I was 15 at SPŠ Elektrotechnická in Prešov. The programming languages that I have taken the most interest in are C, C#, Java, Bash, and React."
+    }
 }
