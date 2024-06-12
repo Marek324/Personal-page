@@ -4,7 +4,7 @@ import Logo from "./navbar/Logo";
 
 function Header() {
     return (
-        <header className="static py-4 w-1/6 flex flex-col items-center justify-center h-screen select-none">
+        <header className="fixed top-0 right-0 h-screen w-1/6 py-4 flex flex-col items-center justify-center select-none">
             <Logo />
             <Menu />
             <LanguageSelector />
