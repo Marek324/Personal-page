@@ -1,6 +1,6 @@
-import LanguageSelector from "./header/LanguageSelector";
-import Menu from "./header/Menu";
-import Logo from "./header/Logo";
+import LanguageSelector from "./navbar/LanguageSelector";
+import Menu from "./navbar/Menu";
+import Logo from "./navbar/Logo";
 
 function Header() {
     return (
