@@ -27,5 +27,59 @@
     "about": {
         "title": "About me",
         "content": "My name's Marek Hric. I am 20 years old and am in my second year at the Faculty of Information Technology at Brno University of Technology. I started studying information technology when I was 15 at SPŠ Elektrotechnická in Prešov. The programming languages that I have taken the most interest in are C, C#, Java, Bash, and React."
-    }
+    },
+    "skills": {
+        "title": "Skills",
+        "content": [
+            {
+                "name": "C",
+                "level": "Advanced"
+            },
+            {
+                "name": "Git",
+                "level": "Intermediate"
+            },
+            {
+                "name": "Java",
+                "level": "Intermediate"
+            },
+            {
+                "name": "Bash",
+                "level": "Intermediate"
+            },
+            {
+                "name": "React",
+                "level": "Beginner"
+            },
+            {
+                "name": "Tailwind CSS",
+                "level": "Intermediate"
+            },
+            {
+                "name": "HTML",
+                "level": "Intermediate"
+            },
+            {
+                "name": "CSS",
+                "level": "Intermediate"
+            },
+            {
+                "name": "JavaScript",
+                "level": "Intermediate"
+            },
+            {
+                "name": "SQL",
+                "level": "Intermediate"
+            },
+            {
+                "name": "Python",
+                "level": "Beginner"
+            },
+            {
+                "name": "C#",
+                "level": "Beginner"
+            }
+        ]
+    },
+    "contact": "Contact"
 }
