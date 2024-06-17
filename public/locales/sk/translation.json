@@ -6,7 +6,7 @@
         "skills": "Skúsenosti",
         "contact": "Kontakt"
     },
-    "home": "Ahoj, ja som <1>Marek</1>, som na ceste stať sa software-ovým inžinierom. Túto stránku použijem na naučenie as Reactu a neskôr ako svoje portfólio.",
+    "home": "Ahoj, ja som <1>Marek</1>, som na ceste stať sa softwareovým inžinierom. Túto stránku použijem na učenie sa Reactu a ako svoje portfólio.",
     "education": {
         "title": "Vzdelanie",
         "content": [
@@ -27,5 +27,59 @@
     "about": {
         "title": "O mne",
         "content": "Volám sa Marek Hric. Mám 20 rokov a som v druhom ročníku na Fakulte informačných technológií na Vysokom učení technickom v Brne. Informačné technológie som začal študovať ako 15-ročný na SPŠ elektrotechnickej v Prešove. Programovacie jazyky, ktoré ma najviac zaujali, sú C, C#, Java, Bash a React."
-    }
+    },
+    "skills": {
+        "title": "Skúsenosti",
+        "content": [
+            {
+                "name": "C",
+                "level": "Pokročilý"
+            },
+            {
+                "name": "Git",
+                "level": "Mierne pokročilý"
+            },
+            {
+                "name": "Java",
+                "level": "Mierne pokročilý"
+            },
+            {
+                "name": "Bash",
+                "level": "Mierne pokročilý"
+            },
+            {
+                "name": "React",
+                "level": "Začiatočník"
+            },
+            {
+                "name": "Tailwind CSS",
+                "level": "Mierne pokročilý"
+            },
+            {
+                "name": "HTML",
+                "level": "Mierne pokročilý"
+            },
+            {
+                "name": "CSS",
+                "level": "Mierne pokročilý"
+            },
+            {
+                "name": "JavaScript",
+                "level": "Mierne pokročilý"
+            },
+            {
+                "name": "SQL",
+                "level": "Mierne pokročilý"
+            },
+            {
+                "name": "Python",
+                "level": "Začiatočník"
+            },
+            {
+                "name": "C#",
+                "level": "Začiatočník"
+            }
+        ]
+    },
+    "contact": "Kontakt"
 }
