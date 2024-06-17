@@ -4,8 +4,8 @@ function About() {
     const { t } = useTranslation();
 
     return (
-        <section id="sec_about">
-            <h2 className="text-5xl font-bold text-center pb-8">
+        <section id="sec_about" className="py-8">
+            <h2 className="text-5xl font-bold text-center pb-8 text-accent">
                 {t("about.title")}
             </h2>
 

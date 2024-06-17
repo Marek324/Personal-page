@@ -15,15 +15,15 @@ function Education() {
     });
 
     return (
-        <section id="sec_education">
-            <h2 className="text-5xl font-bold text-center pb-8">
+        <section id="sec_education" className="py-8">
+            <h2 className="text-5xl font-bold text-center text-accent">
                 {t("education.title")}
             </h2>
             <ul className="py-8">
                 {education.map((item, index) => (
                     <li key={index} className="flex">
                         <p className="h-full flex-start w-1/6">{item.year}</p>
-                        <div className="flex flex-col ">
+                        <div className="flex flex-col mb-4">
                             <p className="font-bold text-accent">
                                 {item.school}
                             </p>

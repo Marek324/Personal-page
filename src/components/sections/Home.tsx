@@ -1,13 +1,14 @@
 import meImg from "../../assets/tablo_small_c.jpg";
-import { Trans } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 
 function Home() {
+    const { t } = useTranslation();
     return (
-        <section id="sec_home" className="flex h-96">
+        <section id="sec_home" className="flex h-96 py-8">
             <div className="flex-start basis-2/3 flex flex-col justify-center">
                 <p className="text-center text-4xl p-5 ">
                     <Trans
-                        i18nKey="home"
+                        i18nKey={t("home")}
                         components={{
                             1: <span className="text-accent font-black" />,
                         }}
