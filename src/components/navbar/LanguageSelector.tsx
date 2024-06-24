@@ -14,7 +14,7 @@ function LanguageSelector() {
     return (
         <button
             onClick={handleLanguageChange}
-            className="h-28 w-full group transition-size duration-300 self-end pb-8  flex items-center justify-center"
+            className="group transition-size duration-300 bg-slate-200"
         >
             <img
                 src={currLang === "sk" ? flag_gb : flag_sk}

@@ -4,7 +4,7 @@ function Logo() {
     return (
         <a
             href="#sec_home"
-            className="h-20 w-full group transition-size duration-300 self-top flex items-center justify-center pt-4"
+            className="group transition-size duration-300 bg-slate-500"
         >
             <img
                 src={logo}
