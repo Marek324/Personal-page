@@ -7,7 +7,7 @@ import Skills from "./sections/Skills";
 
 function Body() {
     return (
-        <div className="w-5/6 p-12 text-2xl grid grid-cols-1">
+        <div className="w-5/6 p-12 text-2xl grid grid-cols-1 gap-8">
             <Home />
             <Education />
             <About />

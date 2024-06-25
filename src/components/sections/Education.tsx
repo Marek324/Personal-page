@@ -27,7 +27,7 @@ function Education() {
                             key={index}
                             className="bg-primary/20 rounded-xl grid grid-cols-3 p-5"
                         >
-                            <p className="">{item.year}</p>
+                            <p className="flex items-center">{item.year}</p>
                             <div className="col-span-2">
                                 <p className="font-bold text-accent">
                                     {item.school}
