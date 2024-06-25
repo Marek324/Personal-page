@@ -6,8 +6,8 @@ function App() {
     return (
         <div className="text-text bg-background flex font-anonymous-pro">
             <Suspense fallback="Loading...">
-                <Body />
                 <NavBar />
+                <Body />
             </Suspense>
         </div>
     );

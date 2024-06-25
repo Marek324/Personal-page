@@ -1,6 +1,7 @@
 import About from "./sections/About";
 import Contact from "./sections/Contact";
 import Education from "./sections/Education";
+import Footer from "./sections/Footer";
 import Home from "./sections/Home";
 import Skills from "./sections/Skills";
 
@@ -12,6 +13,7 @@ function Body() {
             <About />
             <Skills />
             <Contact />
+            <Footer />
         </div>
     );
 }
