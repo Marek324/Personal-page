@@ -15,23 +15,29 @@ function Education() {
     });
 
     return (
-        <section id="sec_education" className="py-8">
-            <h2 className="text-5xl font-bold text-center text-accent">
+        <section id="sec_education" className="">
+            <h2 className="text-5xl font-bold text-center text-accent pb-8">
                 {t("education.title")}
             </h2>
-            <ul className="py-8">
-                {education.map((item, index) => (
-                    <li key={index} className="flex">
-                        <p className="h-full flex-start w-1/6">{item.year}</p>
-                        <div className="flex flex-col mb-4">
-                            <p className="font-bold text-accent">
-                                {item.school}
-                            </p>
-                            <p>{item.degree}</p>
-                            <p>{item.field}</p>
-                        </div>
-                    </li>
-                ))}
+            <ul className="grid grid-cols-9">
+                {/* na mobil pod seba */}
+                <div className="col-span-7 col-start-2 grid grid-cols-2 gap-5">
+                    {education.map((item, index) => (
+                        <li
+                            key={index}
+                            className="bg-primary/20 rounded-xl grid grid-cols-3 p-5"
+                        >
+                            <p className="">{item.year}</p>
+                            <div className="col-span-2">
+                                <p className="font-bold text-accent">
+                                    {item.school}
+                                </p>
+                                <p>{item.degree}</p>
+                                <p>{item.field}</p>
+                            </div>
+                        </li>
+                    ))}
+                </div>
             </ul>
         </section>
     );
