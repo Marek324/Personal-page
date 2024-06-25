@@ -82,5 +82,8 @@
         ]
     },
     "contact": "Kontakt",
-    "footer": "Vytvoril Marek Hric"
+    "footer": {
+        "line1": "Všetky práva vyhradené.",
+        "line2": "Dizajn a kód Marek Hric."
+    }
 }

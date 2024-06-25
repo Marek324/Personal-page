@@ -82,5 +82,8 @@
         ]
     },
     "contact": "Contact",
-    "footer": "Made by Marek Hric"
+    "footer": {
+        "line1": "All rights reserved.",
+        "line2": "Designed and developed by Marek Hric."
+    }
 }
